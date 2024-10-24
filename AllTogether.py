@@ -2,7 +2,6 @@
 # using a for loop and a while loop:
 import random
 numberList = [random.randint(1, 100) for i in range(10)]
-print(numberList) # unsorted array
 evenNumbers = []
 for x in numberList:
     if not (x % 2):
